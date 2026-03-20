@@ -10,7 +10,7 @@ the open-source brainwave sequencing engine built in Go.
 Add this tap and install SynapSeq:
 
 ```bash
-brew tap ruanklein/synapseq
+brew tap synapseq-foundation/synapseq
 brew install synapseq
 ```
 
@@ -34,14 +34,14 @@ This tap currently supports:
 - **Linux ARM64**
 - **Linux x86_64**
 
-The formula automatically downloads the precompiled binary from the [latest GitHub release](https://github.com/ruanklein/synapseq/releases/latest).
+The formula automatically downloads the precompiled binary from the [latest GitHub release](https://github.com/synapseq-foundation/synapseq/releases/latest).
 
 ## Issues and Support
 
 For reporting bugs or suggesting improvements related to installation, packaging, or distribution, please open an issue in the main SynapSeq repository using the  
-[`type: packaging`](https://github.com/ruanklein/synapseq/issues?q=is%3Aissue+label%3A%22type%3A+packaging%22) label.
+[`type: packaging`](https://github.com/synapseq-foundation/synapseq/issues?q=is%3Aissue+label%3A%22type%3A+packaging%22) label.
 
-[Go to SynapSeq Issues](https://github.com/ruanklein/synapseq/issues/new?labels=type%3A+packaging&title=%5Bpackaging%5D%3A+)
+[Go to SynapSeq Issues](https://github.com/synapseq-foundation/synapseq/issues/new?labels=type%3A+packaging&title=%5Bpackaging%5D%3A+)
 
 ## License
 
