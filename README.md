@@ -45,4 +45,4 @@ For reporting bugs or suggesting improvements related to installation, packaging
 
 ## License
 
-SynapSeq is licensed under the [GPL-2.0](https://opensource.org/licenses/GPL-2.0) license.
+SynapSeq is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) license.
