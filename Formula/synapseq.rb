@@ -2,7 +2,7 @@ class Synapseq < Formula
   desc "Text-Driven Audio Sequencer for Brainwave Entrainment"
   homepage "https://github.com/synapseq-foundation/synapseq"
   version "4.3.0"
-  license "GPL-2.0-only"
+  license "GPL-3.0-or-later"
 
   base_url = "https://github.com/synapseq-foundation/synapseq/releases/download/v#{version}"
 
