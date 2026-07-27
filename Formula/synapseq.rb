@@ -27,6 +27,8 @@ class Synapseq < Formula
     odie "Unsupported operating system for SynapSeq."
   end
 
+  depends_on "ffmpeg"
+
   def install
     # Locate the SynapSeq binary (ignore .sha256 files)
     bin_path = Dir["synapseq*"].find { |f| File.basename(f) !~ /\.sha256$/ }
