@@ -1,7 +1,7 @@
 class Synapseq < Formula
   desc "Text-Driven Audio Sequencer for Brainwave Entrainment"
   homepage "https://github.com/synapseq-foundation/synapseq"
-  version "4.41.0"
+  version "4.41.1"
   license "GPL-3.0-or-later"
 
   base_url = "https://github.com/synapseq-foundation/synapseq/releases/download/v#{version}"
@@ -9,17 +9,17 @@ class Synapseq < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "#{base_url}/synapseq-v#{version}-macos-arm64.tar.gz"
-      sha256 "0a9f6a88dcfeafda7948a40f42913f049b2cf360a0f38631fb6b56e0ebaf1dcd"
+      sha256 "fc908b5cc01b0220fc3c128518416e4c4918683d4e818529ce74e29aa17eaf60"
     else
       odie "SynapSeq is only available for macOS ARM64 (Apple Silicon)."
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "#{base_url}/synapseq-v#{version}-linux-arm64.tar.gz"
-      sha256 "3ce80f6d9ab563aa6fe447ff105d8422c7bbd91329910e2cbbc6abd37b73352a"
+      sha256 "a3e68ff14c14a65ff0bdae870026d1e498adb0f7bc9557166cf3c0248794c3db"
     elsif Hardware::CPU.intel?
       url "#{base_url}/synapseq-v#{version}-linux-amd64.tar.gz"
-      sha256 "3fc80f85007f6d7cbacc74e58b2e00d810c29f2c7f65a594529b23df58d5d0c0"
+      sha256 "5efec9096f92fd1ca3f314ccd796872aa080f77f4ebb979c87fce9c0b2831097"
     else
       odie "Unsupported Linux architecture for SynapSeq."
     end
